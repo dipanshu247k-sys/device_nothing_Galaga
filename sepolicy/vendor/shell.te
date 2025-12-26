@@ -1,0 +1,1 @@
+allow shell vendor_nt_board_prop:file { read getattr map open };

@@ -1,0 +1,1 @@
+setprop(init_insmod_sh, vendor_nt_board_prop) 

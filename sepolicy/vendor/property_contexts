@@ -1,0 +1,15 @@
+# Fingerprint
+persist.vendor.goodix.dump_data     u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.overlay.fp_algo      u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.overlay.fp_model     u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.overlay.fp_serial    u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.overlay.fp_vendor    u:object_r:vendor_fingerprint_prop:s0
+
+# Power
+vendor.touch.double_tap_to_wake    u:object_r:vendor_power_prop:s0
+
+# TEE
+ro.vendor.trustonic.ready u:object_r:vendor_trustonic_prop:s0 exact bool
+
+# add for board id support
+persist.vendor.fastrpc.hwid_version    u:object_r:vendor_nt_board_prop:s0
